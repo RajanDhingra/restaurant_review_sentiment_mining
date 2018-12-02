@@ -23,3 +23,9 @@ After that we ran the model on the following classifier:
 SVM ‘RBF Kernel’ resulted into the highest Accuracy and F1 Score; Then, we performed Single Value Decomposition on the Test and Test vector to see the improvement with ‘SVD’. Model improved with the SVD, however improvement wasn’t that significant.
 
 
+The SVM linear with SVD resulted into the best accuracy and has the following confusion matrix
+
+	                  Predicted
+	              Negative	Positive
+Actual	Negative	733	      224
+	      Positive	333	      2755
